@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportDetails xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns="http://www.concursolutions.com/api/expense/expensereport/2011/03">
+   <X_UserID>rj.das@servicenow.com</X_UserID>
+   <ReportId>1EB6E5DCAD3B47CD89DB</ReportId>
+   <ReportName>Uber Bill to Ariba</ReportName>
+   <Purpose>Meet Client</Purpose>
+   <CrnCode>USD</CrnCode>
+   <ApsKey>A_PEND</ApsKey>
+   <ReportDate>2018-02-09T00:00:00</ReportDate>
+   <CreationDate>2018-02-09T23:21:24</CreationDate>
+   <ReceiptImageUrl>https://imagingupload.concursolutions.com/file/t0031453cvmi/A8E0027F522CACBAA2A08DA0B63A1E6E27D06C2393BCE1C71901A3303E26B2453E1445D1585E3E8BC239354DFADA26593A76E1CB35F0C593D978BC61EBB2F75DHE0A4D03A3AF3C925FDF0B079AD1BC20D?id=1EB6E5DCAD3B47CD89DB&amp;e=t0031453cvmi&amp;t=AN</ReceiptImageUrl>
+   <HasException>Y</HasException>
+   <EverSentBack>N</EverSentBack>
+   <EmployeeName>Das, Ravijeet</EmployeeName>
+   <ApvStatusName>Submitted &amp; Pending Approval</ApvStatusName>
+   <PayKey>P_NOTP</PayKey>
+   <PayStatusName>Not Paid</PayStatusName>
+   <PaidDate i:nil="true" />
+   <SubmitDate>0001-01-01T00:00:00</SubmitDate>
+   <EntryCount>1</EntryCount>
+   <LedgerName>ServiceNow</LedgerName>
+   <OrgUnit1>(1000)ServiceNow, Inc.</OrgUnit1>
+   <OrgUnit2>(10005460)US IT Finance Applications</OrgUnit2>
+   <OrgUnit3 />
+   <OrgUnit4 />
+   <OrgUnit5 />
+   <OrgUnit6 />
+   <Custom1 />
+   <Custom2 />
+   <Custom3 />
+   <Custom4 />
+   <Custom5 />
+   <Custom6 />
+   <Custom7 />
+   <Custom8 />
+   <Custom9 />
+   <Custom10 />
+   <Custom11 />
+   <Custom12 />
+   <Custom13 />
+   <Custom14 />
+   <Custom15>(US)US</Custom15>
+   <Custom16>5551</Custom16>
+   <Custom17 />
+   <Custom18 />
+   <Custom19 />
+   <Custom20 />
+   <PolKey>gWpgaoJdIMADxB8b6ySoZdVM6q2AsWFiB9w</PolKey>
+   <RptKey>gWnD$s$pgtAbL7U5DgWmKIxYVlxOK$pz5jZ7AA</RptKey>
+   <ReportTotal>30.00000000</ReportTotal>
+   <PersonalExpenses>0.00000000</PersonalExpenses>
+   <AmountDueEmployee>30.00000000</AmountDueEmployee>
+   <AmountDueCompanyCard>0.00000000</AmountDueCompanyCard>
+   <TotalClaimedAmount>30.00000000</TotalClaimedAmount>
+   <TotalApprovedAmount>30.00000000</TotalApprovedAmount>
+   <WorkflowActionURL>https://implementation.concursolutions.com/api/expense/expensereport/v1.1/report/gWv6FDsU$sQ5s1WL3yjzTZQgkH5HYZrBXMfLlw$s3VMj60/WorkFlowAction</WorkflowActionURL>
+   <Entries Count="1">
+      <ExpenseEntry>
+         <ReceiptRequired>N</ReceiptRequired>
+         <ImageRequired>Y</ImageRequired>
+         <EreceiptId />
+         <Custom1>Y</Custom1>
+         <Custom2 />
+         <Custom3 />
+         <Custom4 />
+         <Custom5 />
+         <Custom6 />
+         <Custom7 />
+         <Custom8 />
+         <Custom9 />
+         <Custom10 />
+         <Custom11 />
+         <Custom12 />
+         <Custom13 />
+         <Custom14 />
+         <Custom15 />
+         <Custom16 />
+         <Custom17 />
+         <Custom18 />
+         <Custom19 />
+         <Custom20 />
+         <Custom21 />
+         <Custom22 />
+         <Custom23 />
+         <Custom24 />
+         <Custom25 />
+         <Custom26 />
+         <Custom27 />
+         <Custom28 />
+         <Custom29 />
+         <Custom30 />
+         <Custom31 />
+         <Custom32 />
+         <Custom33 />
+         <Custom34 />
+         <Custom35 />
+         <Custom36 />
+         <Custom37 />
+         <Custom38 />
+         <Custom39 />
+         <Custom40 />
+         <X_UserID>rj.das@servicenow.com</X_UserID>
+         <RpeKey>gWqQAuJJtfLD4mwm8bqk$suI3n9fmgsjmINg</RpeKey>
+         <RptKey>gWnD$s$pgtAbL7U5DgWmKIxYVlxOK$pz5jZ7AA</RptKey>
+         <ExpKey>TAXIX</ExpKey>
+         <FormKey>gWmQ5GGAvee$sv$pogH$sgP4Ho$sWhcTAPgNm8Q</FormKey>
+         <ReceiptImageId>A2F51118E7A637AAB73EE4F181CA59E1</ReceiptImageId>
+         <ExpName>Taxi</ExpName>
+         <SpendCategory>Ground Transportation</SpendCategory>
+         <BusinessPurpose>client visit</BusinessPurpose>
+         <HasVat>N</HasVat>
+         <ExchangeRate>1.00000000000000</ExchangeRate>
+         <TransactionAmount>30.00000000</TransactionAmount>
+         <PostedAmount>30.00000000</PostedAmount>
+         <ApprovedAmount>30.00000000</ApprovedAmount>
+         <TransactionCurrencyName>US, Dollar</TransactionCurrencyName>
+         <VendorDescription />
+         <LocationName />
+         <LocationSubdivision />
+         <LocationCountry />
+         <HasComments>N</HasComments>
+         <CommentCount>0</CommentCount>
+         <PaymentTypeKey>CASH</PaymentTypeKey>
+         <IsItemized>N</IsItemized>
+         <HasExceptions>N</HasExceptions>
+         <IsPersonal>N</IsPersonal>
+         <HasAttendees>N</HasAttendees>
+         <HasAllocation>N</HasAllocation>
+         <IsCreditCardCharge>N</IsCreditCardCharge>
+         <AttendeeCount>0</AttendeeCount>
+         <IsPersonalCardCharge>N</IsPersonalCardCharge>
+         <TransactionDate>2018-02-08T00:00:00</TransactionDate>
+         <LastModified>2018-03-04T05:28:55</LastModified>
+         <OrgUnit1 />
+         <OrgUnit2 />
+         <OrgUnit3 />
+         <OrgUnit4 />
+         <OrgUnit5 />
+         <OrgUnit6 />
+         <Allocations>
+            <Custom1>(1000) ServiceNow, Inc.</Custom1>
+            <Custom2>(10005460) US IT Finance Applications</Custom2>
+            <Custom3 />
+            <Custom4 />
+            <Custom5 />
+            <Custom6 />
+            <Custom7 />
+            <Custom8 />
+            <Custom9 />
+            <Custom10 />
+            <Custom11 />
+            <Custom12 />
+            <Custom13 />
+            <Custom14 />
+            <Custom15 />
+            <Custom16 />
+            <Custom17 />
+            <Custom18 />
+            <Custom19 />
+            <Custom20 />
+            <AllocationKey>gWvwVLJ8LD7$sMvp5HeBdVb4Kj$sBw7yWL$pXw</AllocationKey>
+            <Percentage>100.00000000%</Percentage>
+            <AccountCode1>622650</AccountCode1>
+            <AccountCode2 />
+         </Allocations>
+         <AttendeeDetails />
+         <ItemizationsList />
+      </ExpenseEntry>
+   </Entries>
+</ReportDetails>

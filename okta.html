@@ -1,0 +1,39 @@
+<div class="panel panel-{{options.color}} ">
+        <div class="panel-heading">    
+          <div class="pull-right">
+            <a ng-href="{{okta.url}}" target="okta" class="btn btn-primary" ng-click ="c.data.trackOkta()">Go to Okta</a>      
+          </div>
+          <h4 class="panel-title">{{::options.title}}</h4>
+          <div class="app-label-header">{{::options.short_description}}</div>
+        </div>
+        <div class="panel-body" ng-if="!loading">
+          <uib-tabset active="active" class="underline-tabs" ng-if="c.data.tabs.length">
+            <uib-tab index="{{$index}}" heading="{{tab.label}}" ng-repeat="tab in c.data.tabs" ng-if="tab.apps.length">
+              <div class="animate-repeat col-md-3 col-sm-4 col-xs-12" ng-repeat="app in tab.apps | orderBy : 'sortOrder'">
+                <a class="okta-app clickable-tile flip-container" ng-href="{{app.url}}" target="_blank">
+                  <div class="flipper">
+                    <div class = "front">
+                      <sp-widget widget="app.widgetProp" />
+                      <div class="app-logo"><img ng-src="{{app.logo}}"></div>
+                      <div class="app-label">{{app.label}}</div>
+                      <i class="fa fa-info-circle" style="color:none"></i>
+                    </div>
+                    <div class = "back">
+                      <div class="app-label">Test information about the app</div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div ng-if="c.data.tabs.apps.length === 0">
+                <p>There are no apps/sites in this tab yet.</p>
+              </div>
+            </uib-tab>
+          </uib-tabset>
+          <div ng-if="!c.data.tabs.length">
+            <div class="alert alert-danger">There was an error connecting to your OKTA account. <a ng-href="{{okta.url}}" target="okta">Go to Okta</a>.</div>
+          </div>
+        </div>
+        <div class="panel-body" ng-if="loading">    
+          <loading></loading>
+        </div>
+      </div>

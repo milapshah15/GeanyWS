@@ -1,0 +1,21 @@
+<div ng-click="c.containerClick()" class="surf-grid-view list-item {{item.css_class}}" ng-class="{'clickable-tile' : item.action_count <= 1 &amp;&amp; type!='list', 'normal-tile' : (item.action_count > 1 || (item.actions &amp;&amp; item.actions.length)) &amp;&amp; type!='list'}">
+  <a ng-if="item.report_id &amp;&amp; item.has_access" href="javascript:void(0)" title="{{favorite.tooltip}}" class="pull-right action-favorite"
+    ng-class="{'is-favorite':item.is_favorite}" ng-click="c.toggleFavorite(item)">
+    <i class="fa fa-heart-o"></i>
+  </a>
+  <h4 ng-class="{'has-caption': item.report_type}">
+    <a href="{{c.getValue('href', item)}}" target="{{item.target}}">{{::c.getValue('display_field', item)}}</a>
+    <small ng-if="item.report_type">{{::c.getValue('report_type', item)}}</small>
+  </h4>
+  <p ng-class="{'has_image' : item.image_field}" class="clearfix">
+    <img align="left" ng-src="/{{c.getValue('image_field', item)}}" ng-if="item.image_field" alt="{{::c.getValue('display_field', item)}}">
+    <span ng-bind-html="c.getValue('short_description', item)"></span>
+  </p>
+  <ul class="actions list-unstyled list-horizontal" ng-if="item.actions">
+    <li ng-repeat="action in item.actions">
+      <a href="javascript:void(0)" ng-click="c.performAction(action)" title="{{action.name}}"> {{action.name}} </a>
+    </li>
+  </ul>
+</div>
+
+  

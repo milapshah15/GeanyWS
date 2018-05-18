@@ -1,0 +1,26 @@
+<div class="panel-body" style = "width:450px; padding-top:30px" id="apps-backpack">
+  <div class="animate-repeat col-xs-6" ng-repeat="record in c.data.items | orderBy : 'u_order' | limitTo : c.data.max">
+    <a class="okta-app clickable-tile" style="margin-left:0px; border:1px solid #DBE1E7" ng-href="{{record.u_url}}" target="_blank">
+      <div class="app-logo-small" style="height:20px; line-height: 20px;"><img ng-src="{{record.u_logo}}"></div>
+      <div class="app-label-header">{{record.u_label}}</div>
+    </a>
+  </div>
+
+  <!-- Show more button at the bottom -->
+  <div class="show-more col-xs-12" ng-if = "c.data.items.length > 0">
+    <a ng-href="?id=apps" style="border:none;text-transform:none;margin-left:2%; !important">
+      <span ng-if = 'c.data.items.length > 0'>Show More</span>
+    </a>
+  </div>
+
+  <!--Case where you do not have any favorite apps -->
+  <div class="animate-repeat col-xs-12 text-center" ng-if = "!c.data.items.length">
+    <h4 class="panel-title ng-binding">Did you know?</h4>
+    <div class="app-label-header">Now you can pack your favorite apps to your <br/> backpack for quick access, You can choose any 12 apps <br/> from the apps list</div>
+    <a class="okta-app clickable-tile add-more" style="max-width:50%;margin-left:25%;margin-top:10px; border:1px solid #DBE1E7" ng-href="?id=apps">
+      <div class="app-logo-small" style="height:20px; line-height: 20px;"><i class="fa fa-search-plus"></i></div>
+      <div class="app-label-header">Add Apps</div>
+    </a>
+  </div>
+</div>
+ 
