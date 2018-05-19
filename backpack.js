@@ -6,7 +6,7 @@
       .app-logo-small {
         height: 20px;
         line-height: 20px;   
-        text-align: center;
+        text-align: Left;
       }   
     }
   
