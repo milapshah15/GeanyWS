@@ -6,9 +6,10 @@
       .app-logo-small {
         height: 20px;
         line-height: 20px;   
-        text-align: center;
+        text-align: left;
       }   
     }
+  
 
     .clickable-tile {
       margin-left:0px; 
@@ -37,5 +38,6 @@
         color: #777;
     }
 }
+
 
   
